@@ -1,0 +1,7 @@
+- name: DEFAULT
+  defaultEnvironment: PROD
+  defaultPlatform: DEFAULT
+  defaultScope: DEFAULT
+  defaultLocalBrowser: CHROME
+  defaultOnPrem: true
+  defaultHeadless: false

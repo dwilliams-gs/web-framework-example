@@ -1,0 +1,9 @@
+- name: DEFAULT
+  os: OS X
+  osVersion: Monterey
+  browser: Chrome
+  browserVersion: 101.0
+  viewport: DESKTOP
+  width: 1920
+  height: 1080
+  scope: DEFAULT

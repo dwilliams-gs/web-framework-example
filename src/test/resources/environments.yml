@@ -1,0 +1,4 @@
+- name: PROD
+  url: https://uk.gymshark.com/
+  storeCurrency:
+  authKey:
