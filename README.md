@@ -1,8 +1,6 @@
 ## Quick Start
 
-The primary use of [gsauto-core-web](https://github.com/gymshark/gsauto-core-web) is the automation of the driver management to be used within a web based automation
-framework. For using this feature the dependency relies on a number of configuration files to be accessed form within
-`src/test/resources`
+The primary use of [gsauto-core-web](https://github.com/gymshark/gsauto-core-web) is the automation of the driver management to be used within a web based automation framework. For using this feature the dependency relies on a number of configuration files to be accessed from src/test/resources within the consuming framework.
 
 -   `configuration.yml` Main configuration file which defines the default test configuration parameters.
 
