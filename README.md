@@ -55,13 +55,13 @@ import static utils.SeleniumCommands.getCommands;
 
 class Junit5Test {
 
-  private final TestConfigurationFactory testConfig = new TestConfigurationFactory();
+  private static final TestConfigurationFactory TEST_CONFIG = new TestConfigurationFactory();
   private static final String ENV_URL = TestSuiteConfiguration.getInstance().getEnvironment().getUrl();
 
   @BeforeEach
   void setupTest() {
-    testConfig.setPlatform();
-    testConfig.setup();
+    TEST_CONFIG.setPlatform();
+    TEST_CONFIG.setup();
 
     getCommands().get(ENV_URL);
   }
