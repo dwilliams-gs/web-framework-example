@@ -37,7 +37,7 @@
         <dependency>
             <groupId>com.github.gymshark</groupId>
             <artifactId>gsauto-core-web</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
             <scope>test</scope>
         </dependency>
         <dependency>
